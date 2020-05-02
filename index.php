@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
- 
+  <?php echo '<h1>Sent Email</h1>'; ?> 
  
  <?php
 // the message
