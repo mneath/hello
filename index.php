@@ -18,5 +18,17 @@ mail("neathmj@gmail.com","My subject",$msg);
 ?>
 
 
+
+<?php
+echo <p>Cassy</p>;
+$fp = fopen("resource.txt", "a+");
+
+fwrite($fp, '1');
+fwrite($fp, '23');
+fclose($fp);
+
+
+?>
+
  </body>
 </html>
